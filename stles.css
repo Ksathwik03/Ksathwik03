@@ -1,0 +1,420 @@
+/*.ddd{
+    color: blue;
+    border: crimson dashed0  3px;
+  
+}
+h4{
+    background-color: rgb(136, 18, 42);
+    color: darkblue;
+    font-size: 30px;
+    column-gap: 10em;
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    column-count: 3;
+    line-height: 1000px;
+
+}         
+
+
+div{
+color: green;
+border: green dashed;
+margin: 5px;
+} 
+p{
+    border: inherit;
+} */
+
+
+/*img {
+    height: 50%;
+    width: 100%;
+
+}
+html{
+    height: 100% ;
+    background-image: url(https://m.media-amazon.com/images/I/71ii+NPNEvL._SL1280_.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+p{
+    text-transform: uppercase;
+}
+
+.mar{
+
+    color: lawngreen;
+
+}
+
+body{
+    border: solid cornflowerblue ;
+    
+    bottom: 10px;
+    right: 10px;
+    left: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+}
+ul{
+    text-align: center;
+}
+
+.y{
+    color: violet;
+}
+.suc{
+    color: yellow;
+}
+
+.click{
+    color: violet;
+}
+
+
+
+
+.rect{
+    width: 600 px;
+    height: 100%;
+   position: relative;
+   left: 40%;
+}
+h1{
+    position: relative;
+    left: 100px;
+}
+.tea{
+    width: 600px;
+    height: 50px;
+    background-color: skyblue;
+    position: relative;
+    top: 30px;
+}
+h2{
+    position: relative;
+    left: 100px;
+    top: 15px;
+}
+.head{
+    position: relative;
+    left: 250px;
+    top: -30px;
+}
+.h{
+    position: absolute;
+    left: 200px;
+}
+.but{
+    position: relative;
+    left: 40%;
+    top: 60px;
+}
+.hep{
+    background-color: skyblue;
+    
+    width: 100px;
+    height: 50px;
+}
+.m{
+    position: relative;
+    top: -50px;
+    left: 70%;
+    background-color: skyblue;
+}
+.m1{
+    position: relative;
+    top: -50px;
+    left: 70%;
+    background-color: skyblue;
+}.m2{
+    position: relative;
+    top: -50px;
+    left: 70%;
+    background-color: skyblue;
+}.m3{
+    position: relative;
+    top: -50px;
+    left: 70%;
+    background-color: skyblue;
+}
+.tot{
+    position: relative;
+    left: 150px;
+    top: -25px;
+}
+*/
+body{
+    background-color: rgba(10, 9, 9, 0.897);
+    overflow: hidden; /* Hide scrollbars */
+
+}
+.fa-instagram{
+    position: relative;
+    top: 3px;
+    left: 8px;
+    color: turquoise;
+    font-size: 1.5em;       
+}
+.bor1{
+    position: absolute;
+    top: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: turquoise;
+}
+.fa-facebook-square{
+    position: relative;
+    top: 3px;
+    left: 8px;
+    color: turquoise;
+    font-size: 1.5em;
+      
+}
+.bor2{ 
+    position: absolute;
+    left: 75px;
+    top: 50px; 
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: turquoise;
+}
+.fa-linkedin{
+    position: relative;
+    top: 3px;
+    left: 5px;
+    color: turquoise;
+    font-size: 1.5em;    
+}
+.bor3{
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: turquoise;
+}
+.fa-github{
+    position: relative;
+    top: 3px;
+    left: 8px;
+    color: turquoise;
+    font-size: 1.5em;     
+}
+.bor4{
+    position: absolute;
+    left: 225px;
+    top: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: turquoise;
+}
+.fa-envelope{
+    position: relative;
+    top: 3px;
+    left: 8px;
+    color: turquoise;
+    font-size: 1.5em;     
+}
+.bor5{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: turquoise;
+}
+.ico{
+    position: absolute;
+    left: 500px;
+    top: 77%;
+}
+.cop{
+    position: absolute;
+    top: 92%;
+    left: 480px;
+    color: turquoise;
+}
+ nav{
+    float:left;
+    width:100%;
+}
+
+nav ul{
+    list-style-type:none;
+    padding:10px;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+.HOME{
+    position: absolute;
+    left:600px;
+}
+nav ul li {
+    color:#000;
+}
+
+#mainHeader{
+    background-color:#82EAFF;
+    padding:0.5em;
+    overflow:auto;
+}
+
+/* to make our logo resize automatically */
+#responsiveLogo{
+    width:100%;
+}
+
+#responsiveLogo img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.g{
+    margin-top: 30px;
+}
+/*.cir{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #13F7D2;;
+}
+.cmov{
+    position: absolute;
+    top:400px;
+}
+*/
+.cr{
+    position: absolute;
+    top:500px;
+    left:90px;
+}
+.cr1{
+    position: absolute;
+    top:170px;
+    left:380px;
+}
+h1{
+    color: turquoise;
+    
+    font-size: 50px;
+    position: absolute;
+    top:100px;
+    left:700px;
+
+}
+.mp{
+   font-size: 40px;
+   position: absolute;
+    top:180px;
+    left:700px;
+ color: white;
+ font-style: italic;
+}
+.cnt{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    
+    font-size: 40px;
+    color: turquoise;
+}
+.abt{
+    position: absolute;
+    top: 20px;
+    left: 1200px;
+    font-size: 40px;
+    color: turquoise;
+}
+.cnt1{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    
+    font-size: 40px;
+    color: turquoise;
+}
+.abt1{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    font-size: 40px;
+    color: turquoise;
+}     
+    button{    
+        display: none;
+    }
+    
+@media (max-width: 800px){
+    .cop{
+        position: absolute;
+        left: 100px;
+        top: 1020px;
+    }
+    .ico{
+    position: absolute;
+    left: 120px;
+    top:920px;
+     }
+     .g{
+         padding:100px ;
+         width: 200px;
+     }
+     
+     h1{
+         text-align: center;
+         position: absolute;
+         left: 200px;
+         top:500px;
+     }
+     .mp{
+         position: absolute;
+        left: 100px;
+        top: 550px;
+        
+     }
+    html {
+        overflow-y: scroll;
+      }  
+      .cr1{
+          position: absolute;
+          left: 500px;
+      }
+      button{
+       width: 40px;
+       color: #000;   
+      }
+    .menubtn{
+        display: block;
+        font-size: 40px;
+        color: turquoise;
+        width: 60px;
+        position: absolute;
+        left: 90%;        
+    }       
+    .abt{
+        display: none;
+    } 
+    .cnt{
+        display: none;
+    }
+    .nav2{
+        display: none;
+    }
+}
