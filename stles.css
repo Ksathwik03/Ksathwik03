@@ -367,13 +367,13 @@ h1{
     .cop{
         position: absolute;
         left: 20%;
-        top: 165%;
+        top: 185%;
         
     }
     .ico{
     display:inline-block;
     position: absolute;
-    top:150%;
+    top:170%;
     left: 23%;
      }
      .g{
@@ -434,3 +434,9 @@ h1{
     }
     
 }
+@media (max-width: 200px){
+    h1{
+        font-size: 200px;
+    }
+}
+
